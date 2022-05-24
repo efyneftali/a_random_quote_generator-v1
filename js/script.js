@@ -52,12 +52,12 @@ let quotes = [
  * `getRandomQuote` function
 ***/
 
-let getRandomQuote = (myArr) => {
+let getRandomQuote = (quoteArr) => {
   //create a random number from 0 to length of array and store it in randomNum 
-  let randomNum = Math.floor(Math.random()* quotes.length)
+  let randomNum = Math.floor(Math.random()* quoteArr.length)
 
   //returns the quote that matches the array
-  return quotes[randomNum]
+  return quoteArr[randomNum]
 } 
 
 //console.log(getRandomQuote(quotes))
